@@ -1,16 +1,54 @@
-.RockPaperScissor{
-    padding-bottom: 4rem;
+* {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(51, 50, 50);
+  text-align: center;
 }
-.RockPaperScissor .title{
-    margin-top: 3rem;
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.5;
+  margin: 0;
 }
-.RockPaperScissor .container1{
-    margin-top: 15px;
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.8em 1.4em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1528cf;
+  color: wheat;
+  cursor: pointer;
+  margin: 10px;
 }
-.RockPaperScissor button{
-    text-transform: capitalize;
-    border-radius: 4px;
+
+button:hover {
+  background-color: rgb(12, 81, 146);
 }
-.RockPaperScissor p{
-    font-size: 20px;
+
+p {
+  font-size: 1.2rem;
+}
+
+
+.RockPaperScissor {
+  padding-bottom: 4rem;
+}
+
+.RockPaperScissor .title {
+  margin-top: 3rem;
+}
+
+.RockPaperScissor .container1 {
+  margin-top: 15px;
+}
+
+.RockPaperScissor button {
+  text-transform: capitalize;
+  border-radius: 4px;
+}
+
+.RockPaperScissor p {
+  font-size: 20px;
 }

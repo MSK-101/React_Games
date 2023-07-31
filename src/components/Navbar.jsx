@@ -34,18 +34,28 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/TowerOfHanoi" style={linkStyle} >
-            Tower Of Hanoi
+          <Link to="/" style={linkStyle} >
+            Profile
           </Link>
         </li>
         <li>
-          <Link to="/TicTacToe" style={linkStyle} >
-            Tic Tac Toe
+          <Link to="/" style={linkStyle} >
+            Add/Remove Games
           </Link>
         </li>
         <li>
-          <Link to="/RockPaperScissor" style={linkStyle} >
-            Rock Paper Scissors
+          <Link to="/" style={linkStyle} >
+            Login
+          </Link>
+        </li>
+        <li>
+          <Link to="/" style={linkStyle} >
+            Logout
+          </Link>
+        </li>
+        <li>
+          <Link to="/" style={linkStyle} >
+            Signup
           </Link>
         </li>
       </ul>
